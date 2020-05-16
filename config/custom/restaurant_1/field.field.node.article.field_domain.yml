@@ -1,0 +1,29 @@
+uuid: efe73b7a-df15-4656-91f4-e15db263d64b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_domain
+    - node.type.article
+    - taxonomy.vocabulary.domain
+id: node.article.field_domain
+field_name: field_domain
+entity_type: node
+bundle: article
+label: Domain
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      domain: domain
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

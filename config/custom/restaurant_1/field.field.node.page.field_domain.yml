@@ -1,0 +1,29 @@
+uuid: 698f9808-8d57-4bde-bad1-6512442d38b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_domain
+    - node.type.page
+    - taxonomy.vocabulary.domain
+id: node.page.field_domain
+field_name: field_domain
+entity_type: node
+bundle: page
+label: Domain
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      domain: domain
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
