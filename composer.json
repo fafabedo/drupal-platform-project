@@ -13,28 +13,16 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/fafabedo/drupal_platform_api"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/fafabedo/platform_paragraph"
         }
     ],
     "require": {
         "php": ">=7.0.8",
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6.5",
-        "fafabedo/drupal_platform_api": "dev-master",
-        "fafabedo/platform_paragraph": "dev-master",
-        "drupal/admin_toolbar": "^2.2",
-        "drupal/adminimal_theme": "^1.5",
+        "fafabedo/drupal-platform-api": "dev-master",
+        "fafabedo/platform-paragraph": "dev-master",
         "drupal/config_split": "^1.4",
         "drupal/console": "^1.0.2",
-        "drupal/consumer_image_styles": "^3.0",
-        "drupal/consumers": "^1.11",
         "drupal/core": "^8.8.0",
         "drupal/core-composer-scaffold": "^8.8.0",
         "drupal/decoupled_router": "^1.11",
