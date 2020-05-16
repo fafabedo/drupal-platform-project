@@ -17,6 +17,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/fafabedo/drupal_platform_api"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/fafabedo/platform_paragraph"
         }
     ],
     "require": {
