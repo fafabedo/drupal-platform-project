@@ -760,13 +760,13 @@ $settings['entity_update_backup'] = TRUE;
 
 $settings['config_sync_directory'] = dirname(DRUPAL_ROOT) . '/config/sync';
 
-# $databases['default']['default'] = [
-#   'database' => getenv('MYSQL_DATABASE'),
-#   'driver' => 'mysql',
-#   'host' => getenv('MYSQL_HOSTNAME'),
-#   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-#   'password' => getenv('MYSQL_PASSWORD'),
-#   'port' => getenv('MYSQL_PORT'),
-#   'prefix' => '',
-#   'username' => getenv('MYSQL_USER'),
-# ];
+$databases['default']['default'] = [
+  'database' => getenv('MYSQL_DATABASE'),
+  'driver' => 'mysql',
+  'host' => getenv('MYSQL_HOSTNAME'),
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'password' => getenv('MYSQL_PASSWORD'),
+  'port' => getenv('MYSQL_PORT'),
+  'prefix' => '',
+  'username' => getenv('MYSQL_USER'),
+];
