@@ -46,7 +46,7 @@ class ScriptHandler {
       //   'value' => Path::makeRelative($drupalFinder->getComposerRoot() . '/config/sync', $drupalRoot),
       //   'required' => TRUE,
       // ];
-      drupal_rewrite_settings($settings, $drupalRoot . '/sites/default/settings.php');
+      // drupal_rewrite_settings($settings, $drupalRoot . '/sites/default/settings.php');
       $fs->chmod($drupalRoot . '/sites/default/settings.php', 0666);
       $event->getIO()->write("Created a sites/default/settings.php file with chmod 0666");
     }
