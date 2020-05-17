@@ -51,10 +51,6 @@ class ScriptHandler {
       $event->getIO()->write("Created a sites/default/settings.php file with chmod 0666");
     }
 
-    if (!$fs->exists(dirname($drupalRoot) . '/.env') && $fs->exists(dirname($drupalRoot) . '/.env.example')) {
-      $fs->copy(dirname($drupalRoot) . '/.env.example', dirname($drupalRoot) . '/.env');
-    }
-
     // Create the files directory with chmod 0777
     if (!$fs->exists($drupalRoot . '/sites/default/files')) {
       $oldmask = umask(0);
