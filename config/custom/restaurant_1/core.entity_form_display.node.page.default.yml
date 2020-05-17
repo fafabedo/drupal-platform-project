@@ -1,4 +1,3 @@
-uuid: dd091079-a3e8-4a34-9241-47827a3b793a
 langcode: en
 status: true
 dependencies:
@@ -77,8 +76,6 @@ third_party_settings:
         formatter: closed
         required_fields: true
       label: Components
-_core:
-  default_config_hash: AD_lefuYmjsKeH3OQApsyP_nLj6ZnGaALznLQSQ0Z_o
 id: node.page.default
 targetEntityType: node
 bundle: page

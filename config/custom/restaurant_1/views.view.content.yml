@@ -1,4 +1,3 @@
-uuid: 8fae42f4-fb2e-4815-87dd-406a846ad3d1
 langcode: en
 status: true
 dependencies:
@@ -9,8 +8,6 @@ dependencies:
     - node
     - taxonomy
     - user
-_core:
-  default_config_hash: P7F4DFe8BL31DRVqsvS-ix9KZZqvvaPjZ7zEvGo9yNM
 id: content
 label: Content
 module: node

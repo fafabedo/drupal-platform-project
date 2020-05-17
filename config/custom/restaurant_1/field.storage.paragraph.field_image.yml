@@ -2,15 +2,14 @@ langcode: en
 status: true
 dependencies:
   module:
-    - node
-id: node.field_slug
-field_name: field_slug
-entity_type: node
-type: string
+    - media
+    - paragraphs
+id: paragraph.field_image
+field_name: field_image
+entity_type: paragraph
+type: entity_reference
 settings:
-  max_length: 255
-  is_ascii: false
-  case_sensitive: false
+  target_type: media
 module: core
 locked: false
 cardinality: 1

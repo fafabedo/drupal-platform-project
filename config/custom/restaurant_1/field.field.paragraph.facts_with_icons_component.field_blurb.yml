@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_blurb
+    - paragraphs.paragraphs_type.facts_with_icons_component
+  module:
+    - text
+id: paragraph.facts_with_icons_component.field_blurb
+field_name: field_blurb
+entity_type: paragraph
+bundle: facts_with_icons_component
+label: Blurb
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

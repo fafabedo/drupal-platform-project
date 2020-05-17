@@ -756,7 +756,7 @@ $settings['entity_update_backup'] = TRUE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 
-# $config['config_split.config_split.restaurant_setup_1']['status'] = TRUE;
+$config['config_split.config_split.restaurant_setup_1']['status'] = TRUE;
 
 $settings['config_sync_directory'] = dirname(DRUPAL_ROOT) . '/config/sync';
 

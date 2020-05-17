@@ -1,0 +1,39 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.hero_banner_component.field_blurb
+    - field.field.paragraph.hero_banner_component.field_image
+    - field.field.paragraph.hero_banner_component.field_title
+    - paragraphs.paragraphs_type.hero_banner_component
+  module:
+    - text
+id: paragraph.hero_banner_component.default
+targetEntityType: paragraph
+bundle: hero_banner_component
+mode: default
+content:
+  field_blurb:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_image:
+    type: entity_reference_entity_view
+    weight: 0
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_title:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+hidden: {  }
