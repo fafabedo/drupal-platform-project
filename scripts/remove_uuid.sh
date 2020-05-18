@@ -20,6 +20,8 @@ find /Users/e043280/Project/bedoyatech/php/test-project/web/modules/custom/platf
 find /Users/e043280/Project/bedoyatech/php/test-project/web/modules/custom/platform_paragraph/config/install/ -type f -exec sed -i '' '/_core:/{N;d;}' {} \;
 echo "remove uuid and core module"
 
+find config/custom/restaurant_1/ -type f -exec sed -i '' '/^uuid: /d' {} \;
+find config/custom/restaurant_1/ -type f -exec sed -i '' '/_core:/{N;d;}' {} \;
 
 
 
